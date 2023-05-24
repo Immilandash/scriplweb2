@@ -791,7 +791,6 @@ body{
     width: auto;
     position: relative;
     cursor: pointer;
-    width: 50%;
     background: black;
 }
 .stories__card:hover> .stories__card__date{
