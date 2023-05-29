@@ -153,9 +153,13 @@ a{
     padding: 1.5rem 3rem;
 }
 .hero__grid__p, .engineers__p {
-    max-width: 50ch;
     line-height: 1.5;
 }
+@media screen and (min-width: 768px) {
+    .hero__grid__p{
+        max-width: 50ch;
+    }
+}   
 .engineers__p{
     margin: 1rem auto;
 }
